@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ticket-page{
+    background-color: #F5F5F5
+}
+
+
+.share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.share>img{
+    width: 25px;
+}
+
+
+.ticket-top{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 85%;
+    border-radius: 12px 12px 0px 0px;
+    margin-inline:auto;
+    margin-top: 10px;
+    padding: 15px;
+    padding-inline: 5px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 4px 14px);
+}
+
+.ticket-top>img{
+    /* filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 4px 14px); */
+    margin-left: 15px;
+    height: 100px;
+}
+
+.bTWDat {
+    border-radius: 8px;
+    margin-right: 20px;
+    min-height: inherit;
+    max-height: inherit;
+    opacity: 0;
+    object-fit: cover;
+}
+.jwCZTb{
+    margin-right: 40px ;
+}
+
+
+
+
+
+
+
+.jKlCDK {
+    width: 100%;
+    border-radius: 6px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+
+.ffjuIT {
+    width: 100%;
+    border-radius: 6px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.iqnvaK {
+    width: 100%;
+    border-radius: 6px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+
+.dVXsBI {
+    color: rgb(102, 102, 102);
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-right: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+
+/* middle section */
+.kFHPCd {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 75%;
+    margin-inline:auto;
+    height: 28px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.ticketDetailsMiddleSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+
+.iNLyPf {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    top: calc(50% - 8px);
+    background-color: rgb(237, 234, 234);
+    left: -8px;
+    box-shadow: rgb(230, 227, 227) -3px 0px 3px inset;
+}
+
+.izRSXr {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    top: calc(50% - 8px);
+    background-color: rgb(237, 234, 234);
+    right: -8px;
+    box-shadow: rgb(230, 227, 227) 3px 0px 3px inset;
+}
+
+
+.support{
+    background-color: rgb(233, 231, 228);
+    width: 90%;
+    padding: 3px;
+    text-align: center;
+    border-radius: 40px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+
+/* bottom section */
+
+.ticket-bottom{
+    background-color: white;
+    width: 85%;
+    border-radius: 0px 0px 12px 12px;
+    margin-inline:auto;
+    /* padding: 15px; */
+    filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 4px 14px);
+}
+
+
+.screen-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.barcode{
+    width:70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.ticket-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.seat-quantity{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.seat-info{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.booking-id{
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    padding-top: 10px;
+}
+
+.ScreenName{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+
+.cancellation {
+    background: rgb(245, 245, 245);
+    padding: 4px 12px;
+    margin: 12px 0px 8px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+}
+
+
+.ticket-amount {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
